@@ -73,7 +73,7 @@ public partial class _Default : System.Web.UI.Page
                 dttable = ToDataTable(collection);
 
                 Session["MenuDT"] = dttable;
-                // Response.Redirect("Dashboard.aspx", false);
+                 Response.Redirect("Default.aspx", false);
             }
 
             else
